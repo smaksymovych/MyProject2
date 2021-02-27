@@ -9,17 +9,16 @@ on:
       
 jobs:
   my_testing:
-
     runs-on: ubuntu-latest
     steps:
     - name: Print hello message
-    - run : echo "Hello world from testing!"
+    - run : echo "Hello world from Testing Job!"
 
 
   my_deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Print hello message
-    - run : echo "Hello world from deploy!"
+    - run : echo "Hello world from Deploy Job!"
       
       
