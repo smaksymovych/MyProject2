@@ -3,7 +3,7 @@
 name: my-ci-action
 env:
   APPLICATION_NAME: "MyFlaSk"
-  PACKAGE_NAME: "flask-deploy-ver-${{ github.sha }}"
+  DEPLOY_PACKAGE_NAME: "flask-deploy-ver-${{ github.sha }}"
 
 on:
   push:
@@ -27,7 +27,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: [my_testing] 
     steps:
-    - name: Print hello message
+    - name: Print hello message from Deploy
       run : echo "Hello world from Deploy Job!"
       
+    - name: Pr
+      run: |
+        echo "Deploy package name is: ${{ env.DEPLOY_PACKAGE_NAME }}" 
       
