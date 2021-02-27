@@ -43,11 +43,11 @@ jobs:
     - name: Show Deploy Package Name
       run: echo "Deploy package name is: ${{ env.DEPLOY_PACKAGE_NAME }}"
       
-    - name: Let's check some available packages 1
+    - name: Lets check some available packages 1
       run: aws --version
       
-    - name: Let's check some available packages 2 
+    - name: Lets check some available packages 2 
       run: python --version
       
-    - name: Let's check some available packages 2 
+    - name: Lets check some available packages 2 
       run: zip --help
