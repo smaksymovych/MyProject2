@@ -1,0 +1,25 @@
+# This is a basic workflow to help you get started with Actions
+
+name: my-ci-action
+
+on:
+  push:
+    branches: 
+      - master
+      
+jobs:
+  my_testing:
+
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print hello message
+    - run : echo "Hello world from testing!"
+
+
+  my_deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print hello message
+    - run : echo "Hello world from deploy!"
+      
+      
