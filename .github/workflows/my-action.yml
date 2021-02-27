@@ -17,12 +17,11 @@ jobs:
     - name: Print hello message in Testing
       run : echo "Hello world from Testing Job!"
       
-    -name: Run a few commands
+    - name: Run a few commands
       run: |
         echo "Hello Message 1"
         echo "Hello Message 2"
-        
-
+        echo "Application name: ${{ env.APPLICATION_NAME }}" 
 
   my_deploy:
     runs-on: ubuntu-latest
