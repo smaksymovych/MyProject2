@@ -41,7 +41,7 @@ jobs:
       run : echo "Hello world from Deploy Job!"
       
     - name: Show Deploy Package Name
-      run: echo "Deploy package name is: ${{ env.DEPLOY_PACKAGE_NAME }}" 
+      run: echo "Deploy package name is: ${{ env.DEPLOY_PACKAGE_NAME }}"
       
     - name: Let's check some available packages 1
       run: aws --version
