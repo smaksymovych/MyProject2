@@ -110,6 +110,7 @@ welcome = """
     <p>Your first AWS Elastic Beanstalk Python Application is now running on your own dedicated environment in the AWS Cloud</p>
     <p>This environment is launched with Elastic Beanstalk Python Platform</p>
     <p>Edited by Serhii Maksymovych</p>
+    <p>Deployment finished successfully</p>
   </div>
   
   <div class="linksColumn"> 
