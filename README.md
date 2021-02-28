@@ -1,2 +1,7 @@
-# MyProject1
-My Project Number 1
+# MyProject2
+
+Status of the last deployment
+
+<img src="https://github.com/smaksymovych/MyProject2/MyProject2/workflows/CI-CD-Pipeline-to-AWS-ElasticBeanstalk/badge.svg? branch=master"><br>
+
+By Serhii Maksymovych
