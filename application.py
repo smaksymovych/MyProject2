@@ -111,6 +111,7 @@ welcome = """
     <p>This environment is launched with Elastic Beanstalk Python Platform</p>
     <p>Edited by Serhii Maksymovych</p>
     <p>Deployment finished successfully</p>
+    <p>Some changes 1</p>
   </div>
   
   <div class="linksColumn"> 
