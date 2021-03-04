@@ -66,4 +66,4 @@ jobs:
       run: aws elasticbeanstalk update-environment --environment-name ${{ env.EB_ENVIRONMENT_NAME }} --version-label "Ver-${{ github.sha }}"
 
     - name: Print Happy Message for CD finish
-      run : echo "CD Pipeline parts finished successfully!"      
+      run : echo "CD Pipeline parts finished successfully! It;s very good!"      
